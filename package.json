@@ -1,0 +1,48 @@
+{
+  "name": "applicationinsightsfornuxt",
+  "version": "1.0.0",
+  "description": "Applicationin Insights module for Nuxt.js",
+  "repository": "jeverduzco/applicationinsightsfornuxt",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Jesús Verduzco"
+    }
+  ],
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "lint": "eslint --ext .vue,.js lib test",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test": "npm run lint && jest",
+    "nuxt": "node --inspect=0.0.0.0 node_modules/nuxt-edge/bin/nuxt test/fixture"
+  },
+  "dependencies": {
+    "applicationinsights": "^1.4.2",
+    "@microsoft/applicationinsights-web": "^2.2.2",
+    "consola": "^2.10.1",
+    "deepmerge": "^4.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.7.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.8.0",
+    "nuxt-edge": "^2.8.0-25993448.f2c08897",
+    "standard-version": "^6.0.1"
+  },
+  "types": "types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
+}

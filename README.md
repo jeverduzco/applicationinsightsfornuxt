@@ -2,9 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Circle CI][circle-ci-src]][circle-ci-href]
-[![Codecov][codecov-src]][codecov-href]
-[![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
 
 > ApplicationInsights module for Nuxt.js
@@ -77,10 +74,6 @@ Normally setting required Instrumentation Key information would be enough.
 - Type: `Boolean`
   - Default: `process.env.APPINSIGHTS_TRACK_PAGE_VIEW || true`
 
-### sendLiveMetrics
-- Type: `Boolean`
-  - Default: `process.env.APPINSIGHTS_SEND_LIVE_METRICS || false`
-
 ### serverConfig
 - Type: `Object`
   - Default: `{
@@ -106,11 +99,5 @@ This module is based on: https://github.com/nuxt-community/applicationinsights-m
 [npm-version-href]: https://npmjs.com/package/applicationinsightsfornuxt
 [npm-downloads-src]: https://img.shields.io/npm/v/applicationinsightsfornuxt/latest.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/applicationinsightsfornuxt
-[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/applicationinsights-module.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/nuxt-community/applicationinsights-module
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/applicationinsights-module.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/nuxt-community/applicationinsights-module
-[david-dm-src]: https://david-dm.org/nuxt-community/applicationinsights-module/status.svg?style=flat-square
-[david-dm-href]: https://david-dm.org/nuxt-community/applicationinsights-module
 [standard-js-src]: https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square
 [standard-js-href]: https://standardjs.com

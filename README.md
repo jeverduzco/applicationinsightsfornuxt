@@ -77,6 +77,10 @@ Normally setting required Instrumentation Key information would be enough.
 - Type: `Boolean`
   - Default: `process.env.APPINSIGHTS_TRACK_PAGE_VIEW || true`
 
+### sendLiveMetrics
+- Type: `Boolean`
+  - Default: `process.env.APPINSIGHTS_SEND_LIVE_METRICS || false`
+
 ### serverConfig
 - Type: `Object`
   - Default: `{

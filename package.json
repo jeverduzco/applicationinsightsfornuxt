@@ -1,6 +1,6 @@
 {
   "name": "applicationinsightsfornuxt",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Applicationin Insights module for Nuxt.js",
   "repository": "jeverduzco/applicationinsightsfornuxt",
   "license": "MIT",
@@ -22,8 +22,8 @@
   },
   "dependencies": {
     "@microsoft/applicationinsights-web": "^2.5.4",
-    "applicationinsights": "^1.7.4",
-    "consola": "^2.11.3",
+    "applicationinsights": "^1.7.5",
+    "consola": "^2.12.1",
     "deepmerge": "^4.2.2"
   },
   "devDependencies": {

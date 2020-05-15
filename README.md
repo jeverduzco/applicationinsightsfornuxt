@@ -90,9 +90,8 @@ Normally setting required Instrumentation Key information would be enough.
 ## License
 [MIT License](./LICENSE)
 
-Copyright (c) Jesús Verduzco
-
-This module is based on: https://github.com/nuxt-community/applicationinsights-module
+This module has been based on: https://github.com/nuxt-community/applicationinsights-module
+And adapted to meet the needs of my projects.
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/dt/applicationinsightsfornuxt.svg?style=flat-square

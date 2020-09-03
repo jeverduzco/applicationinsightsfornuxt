@@ -1,6 +1,6 @@
 {
   "name": "applicationinsightsfornuxt",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Applicationin Insights module for Nuxt.js",
   "repository": "jeverduzco/applicationinsightsfornuxt",
   "license": "MIT",
